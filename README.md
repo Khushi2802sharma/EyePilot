@@ -37,12 +37,12 @@ EyePilot is a hands-free, AI-powered system that enables users to control their 
 ```bash
 git clone https://github.com/your-username/eye-pilot.git
 cd eye-pilot
-
+```
 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 3. Download model files
 
 shape_predictor_68_face_landmarks.dat (extract .dat file from .bz2)
@@ -52,7 +52,7 @@ haarcascade_eye.xml (right-click > Save As > XML)
 📂 Place both files in the project root directory.
 
 📁 Project Structure
-
+```bash
 eye-pilot/
 │
 ├── eye_cursor.py                  # Main script
@@ -60,7 +60,7 @@ eye-pilot/
 ├── haarcascade_eye.xml            # Haar cascade for eye detection
 ├── requirements.txt
 └── README.md
-
+```
 ⚠️ Notes
 Works best in bright lighting conditions
 
